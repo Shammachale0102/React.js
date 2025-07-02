@@ -1,6 +1,6 @@
 # React.js
 
-React Introduction:
+# React Introduction:
 
 What is React?
 React is a front-end JavaScript library.
@@ -12,7 +12,7 @@ React is also known as React.js or ReactJS.
 React is a tool for building UI components.
 
 
-How does React Work?
+ ## How does React Work?
 
 
 
