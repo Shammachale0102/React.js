@@ -47,3 +47,5 @@ But render where?
 There is another folder in the root directory of your React project, named "public". In this folder, there is an index.html file.
 
 You'll notice a single <div> in the body of this file. This is where our React application will be rendered.
+
+
