@@ -48,5 +48,20 @@ There is another folder in the root directory of your React project, named "publ
 
 You'll notice a single <div> in the body of this file. This is where our React application will be rendered.
 
+ ## React JSX
 
+  ### What is JSX?
+ 
+JSX stands for JavaScript XML.
+
+JSX allows us to write HTML in React.
+
+JSX makes it easier to write and add HTML in React.
+
+ ### Coding JSX
+JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.
+
+JSX converts HTML tags into react elements.
+
+You are not required to use JSX, but JSX makes it easier to write React applications.
 
