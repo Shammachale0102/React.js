@@ -83,3 +83,4 @@ A class component must include the extends React.Component statement. This state
 
 The component also requires a render() method, this method returns HTML.
 
+
