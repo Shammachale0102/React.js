@@ -83,4 +83,9 @@ A class component must include the extends React.Component statement. This state
 
 The component also requires a render() method, this method returns HTML.
 
+## React Class Components
+Before React 16.8, Class components were the only way to track state and lifecycle on a React component. Function components were considered "state-less".
 
+With the addition of Hooks, Function components are now almost equivalent to Class components. The differences are so minor that you will probably never need to use a Class component in React.
+
+Even though Function components are preferred, there are no current plans on removing Class components from React.
