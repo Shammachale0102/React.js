@@ -89,3 +89,15 @@ Before React 16.8, Class components were the only way to track state and lifecyc
 With the addition of Hooks, Function components are now almost equivalent to Class components. The differences are so minor that you will probably never need to use a Class component in React.
 
 Even though Function components are preferred, there are no current plans on removing Class components from React.
+
+## React Props
+Props are arguments passed into React components.
+
+Props are passed to components via HTML attributes.
+
+props stands for properties.
+
+### React Props
+React Props are like function arguments in JavaScript and attributes in HTML.
+
+To send props into a component, use the same syntax as HTML attributes:
