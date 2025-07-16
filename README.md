@@ -117,3 +117,12 @@ React event handlers are written inside curly braces:
 
 onClick={shoot}  instead of onclick="shoot()".
 
+ ## React Conditional Rendering
+
+ In React, you can conditionally render components.
+
+There are several ways to do this.
+
+if Statement
+We can use the if JavaScript operator to decide which component to render.
+
