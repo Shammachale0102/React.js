@@ -126,3 +126,4 @@ There are several ways to do this.
 if Statement
 We can use the if JavaScript operator to decide which component to render.
 
+
