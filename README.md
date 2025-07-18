@@ -126,4 +126,10 @@ There are several ways to do this.
 if Statement
 We can use the if JavaScript operator to decide which component to render.
 
+## React Lists
 
+In React, you will render lists with some type of loop.
+
+The JavaScript map() array method is generally the preferred method.
+
+If you need a refresher on the map() method, check out the ES6 section.
