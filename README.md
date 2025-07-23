@@ -162,6 +162,3 @@ We will initialize our state with an empty object.
 To access the fields in the event handler use the event.target.name and event.target.value syntax.
 
 To update the state, use square brackets [bracket notation] around the property name.
-
-
-
