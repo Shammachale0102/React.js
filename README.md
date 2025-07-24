@@ -162,3 +162,56 @@ We will initialize our state with an empty object.
 To access the fields in the event handler use the event.target.name and event.target.value syntax.
 
 To update the state, use square brackets [bracket notation] around the property name.
+
+ ## React Router
+ Create React App doesn't include page routing.
+
+React Router is the most popular solution.
+
+Add React Router
+To add React Router in your application, run this in the terminal from the root directory of the application:
+
+npm i -D react-router-dom
+
+### Folder Structure
+To create an application with multiple page routes, let's first start with the file structure.
+
+Within the src folder, we'll create a folder named pages with several files:
+src\pages\:
+
+Layout.js
+Home.js
+Blogs.js
+Contact.js
+NoPage.js
+
+Each file will contain a very basic React component.
+
+####Basic Usage
+Now we will use our Router in our index.js file.
+
+####Example Explained
+We wrap our content first with <BrowserRouter>.
+
+Then we define our <Routes>. An application can have multiple <Routes>. Our basic example only uses one.
+
+<Route>s can be nested. The first <Route> has a path of / and renders the Layout component.
+
+The nested <Route>s inherit and add to the parent route. So the blogs path is combined with the parent and becomes /blogs.
+
+The Home component route does not have a path but has an index attribute. That specifies this route as the default route for the parent route, which is /.
+
+Setting the path to * will act as a catch-all for any undefined URLs. This is great for a 404 error page.
+
+#### Pages / Components
+The Layout component has <Outlet> and <Link> elements.
+
+The <Outlet> renders the current route selected.
+
+<Link> is used to set the URL and keep track of browsing history.
+
+Anytime we link to an internal path, we will use <Link> instead of <a href="">.
+
+The "layout route" is a shared component that inserts common content on all pages, such as a navigation menu.
+
+
