@@ -213,5 +213,3 @@ The <Outlet> renders the current route selected.
 Anytime we link to an internal path, we will use <Link> instead of <a href="">.
 
 The "layout route" is a shared component that inserts common content on all pages, such as a navigation menu.
-
-
