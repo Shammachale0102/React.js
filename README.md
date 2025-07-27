@@ -214,4 +214,10 @@ Anytime we link to an internal path, we will use <Link> instead of <a href="">.
 
 The "layout route" is a shared component that inserts common content on all pages, such as a navigation menu.
 
+##React Memo
+
+Using memo will cause React to skip rendering a component if its props have not changed.
+
+This can improve performance.
+
 
