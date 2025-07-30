@@ -220,6 +220,30 @@ Using memo will cause React to skip rendering a component if its props have not 
 
 This can improve performance.
 
+## Styling React Using CSS
+There are many ways to style React with CSS, this tutorial will take a closer look at three common ways:
+
+Inline styling
+CSS stylesheets
+CSS Modules
+
+### Inline Styling
+To style an element with the inline style attribute, the value must be a JavaScript object:
+
+### camelCased Property Names
+Since the inline CSS is written in a JavaScript object, properties with hyphen separators, like background-color, must be written with camel case syntax:
+
+### JavaScript Object
+You can also create an object with styling information, and refer to it in the style attribute:
+
+### CSS Stylesheet
+You can write your CSS styling in a separate file, just save the file with the .css file extension, and import it in your application.
+
+### CSS Modules
+Another way of adding styles to your application is to use CSS Modules.
+
+CSS Modules are convenient for components that are placed in separate files.
+
 
 
 
