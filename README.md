@@ -244,6 +244,22 @@ Another way of adding styles to your application is to use CSS Modules.
 
 CSS Modules are convenient for components that are placed in separate files.
 
+## Styling React Using Sass
 
+### What is Sass
+Sass is a CSS pre-processor.
+
+Sass files are executed on the server and sends CSS to the browser.
+
+#### Can I use Sass?
+If you use the create-react-app in your project, you can easily install and use Sass in your React projects.
+
+Install Sass by running this command in your terminal:
+
+npm i sass
+Now you are ready to include Sass files in your project!
+
+#### Create a Sass file
+Create a Sass file the same way as you create CSS files, but Sass files have the file extension .scss
 
 
