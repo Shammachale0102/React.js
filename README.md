@@ -285,6 +285,38 @@ If you have stateful logic that needs to be reused in several components, you ca
 
 Hooks cannot be conditional
 
+### React useState Hook
+The React useState Hook allows us to track state in a function component.
+
+State generally refers to data or properties that need to be tracking in an application.
+
+#### Import useState
+To use the useState Hook, we first need to import it into our component.
+
+#### Initialize useState
+We initialize our state by calling useState in our function component.
+
+useState accepts an initial state and returns two values:
+
+The current state.
+A function that updates the state.
+
+#### Update State
+To update our state, we use our state updater function.
+
+#### What Can State Hold
+The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these!
+
+We could create multiple state Hooks to track individual values.
+
+#### Updating Objects and Arrays in State
+When state is updated, the entire state gets overwritten.
+
+What if we only want to update the color of our car?
+
+If we only called setCar({color: "blue"}), this would remove the brand, model, and year from our state.
+
+We can use the JavaScript spread operator to help us.
 
 
 
