@@ -317,7 +317,3 @@ What if we only want to update the color of our car?
 If we only called setCar({color: "blue"}), this would remove the brand, model, and year from our state.
 
 We can use the JavaScript spread operator to help us.
-
-
-
-
