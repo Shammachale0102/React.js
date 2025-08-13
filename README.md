@@ -334,5 +334,3 @@ Some effects require cleanup to reduce memory leaks.
 Timeouts, subscriptions, event listeners, and other effects that are no longer needed should be disposed.
 
 We do this by including a return function at the end of the useEffect Hook.
-
-
