@@ -350,7 +350,29 @@ To illustrate, we have many nested components. The component at the top and bott
 
 To do this without Context, we will need to pass the state as "props" through each nested component. This is called "prop drilling".
 
+##React useRef Hook
 
+The useRef Hook allows you to persist values between renders.
 
+It can be used to store a mutable value that does not cause a re-render when updated.
 
+It can be used to access a DOM element directly.
+
+#### Does Not Cause Re-renders
+If we tried to count how many times our application renders using the useState Hook, we would be caught in an infinite loop since this Hook itself causes a re-render.
+
+To avoid this, we can use the useRef Hook.
+### Accessing DOM Elements
+The useRef Hook is often used to access DOM elements directly.
+
+First, we create a ref using the useRef Hook: const inputElement = useRef();.
+
+Then, we attach the ref to a DOM element using the ref attribute in JSX: <input type="text" ref={inputElement} />.
+
+Finally, we can access the DOM element using the current property: inputElement.current.
+
+#### Tracking State Changes
+The useRef Hook can also be used to keep track of previous state values.
+
+This is because we are able to persist useRef values between renders.
 
