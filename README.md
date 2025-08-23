@@ -375,3 +375,20 @@ The useRef Hook can also be used to keep track of previous state values.
 
 This is because we are able to persist useRef values between renders.
 
+## React useReducer Hook
+
+The useReducer Hook is similar to the useState Hook.
+
+It allows for custom state logic.
+
+If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.
+
+### Syntax
+The useReducer Hook accepts three arguments.
+
+useReducer(reducer, initialState, init)
+The reducer function contains your custom state logic and the initialStatecan be a simple value, but generally will contain an object. The init argument is optional and is used to initialize the state.
+
+The useReducer Hook returns the current stateand a dispatchmethod.
+
+
