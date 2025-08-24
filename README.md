@@ -390,5 +390,3 @@ useReducer(reducer, initialState, init)
 The reducer function contains your custom state logic and the initialStatecan be a simple value, but generally will contain an object. The init argument is optional and is used to initialize the state.
 
 The useReducer Hook returns the current stateand a dispatchmethod.
-
-
