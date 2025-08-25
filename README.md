@@ -390,3 +390,29 @@ useReducer(reducer, initialState, init)
 The reducer function contains your custom state logic and the initialStatecan be a simple value, but generally will contain an object. The init argument is optional and is used to initialize the state.
 
 The useReducer Hook returns the current stateand a dispatchmethod.
+
+## React useCallback Hook
+The useCallback Hook is used to memoize a callback function.
+
+Memoizing a function means caching the result of a function so that it does not need to be recalculated.
+
+The useCallback function only re-executes when one of its dependencies changes value.
+
+This allows us to isolate resource intensive functions so that they will not automatically run on every render.
+
+### Syntax
+The useCallback Hook accepts two arguments.
+
+useCallback(callback, dependencies)
+callback: The function that you want to memoize.
+
+dependencies: An array of dependencies for the callback function. The memoized callback will only change if one of these dependencies has changed.
+Try running the example above and click the buttons.
+
+You will notice that all three components (Parent, Button 1 and Button 2) re-render each time you click the buttons.
+
+This can be avoided by using the useCallback hook.
+
+By using the useCallback hook, we can memoize the functions and only recreate them when their dependencies change.
+
+When clicking Button 1, only Parent and Button 1 should re-render, and when clicking Button 2, only Parent and Button 2 should re-render:
