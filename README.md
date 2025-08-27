@@ -416,5 +416,3 @@ This can be avoided by using the useCallback hook.
 By using the useCallback hook, we can memoize the functions and only recreate them when their dependencies change.
 
 When clicking Button 1, only Parent and Button 1 should re-render, and when clicking Button 2, only Parent and Button 2 should re-render:
-
-
