@@ -416,3 +416,35 @@ This can be avoided by using the useCallback hook.
 By using the useCallback hook, we can memoize the functions and only recreate them when their dependencies change.
 
 When clicking Button 1, only Parent and Button 1 should re-render, and when clicking Button 2, only Parent and Button 2 should re-render:
+
+## React useMemo Hook
+
+The React useMemo Hook returns a memoized value.
+
+Think of memoization as caching a value so that it does not need to be recalculated.
+
+The useMemo Hook only runs when one of its dependencies update.
+
+This can improve performance.
+
+The useMemo and useCallback Hooks are similar:
+
+useMemo returns a memoized value.
+
+useCallback returns a memoized function.
+
+#### Without useMemo
+
+The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running.
+
+In this example, we have an expensive function that runs on every render.
+
+When changing the count or adding a todo, you will notice a delay in execution.
+
+### Use useMemo
+To fix this performance issue, we can use the useMemo Hook to memoize the expensiveCalculation function. This will cause the function to only run when needed.
+
+We can wrap the expensive function call with useMemo.
+
+The useMemoHook accepts a second parameter to declare dependencies. The expensive function will only run when its dependencies have changed.
+
