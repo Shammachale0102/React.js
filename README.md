@@ -448,6 +448,30 @@ We can wrap the expensive function call with useMemo.
 
 The useMemoHook accepts a second parameter to declare dependencies. The expensive function will only run when its dependencies have changed.
 
+## React Custom Hooks
+You can make your own Hooks!
+
+When you have components that can be used by multiple components, we can extract that component into a custom Hook.
+
+Custom Hooks start with "use". Example: useFetch.
+
+### Build a Hook
+First, let us make an example without a custom Hook.
+
+In the following code, we are fetching data from a URL and displaying it.
+
+We will use the JSONPlaceholder service to fetch some fake data.
+
+To learn more about fetching data, check out the JavaScript Fetch API section.
+
+### Example Explained
+We have created a new file called useFetch.js containing a function called useFetch which contains all of the logic needed to fetch our data.
+
+We removed the hard-coded URL and replaced it with a url variable that can be passed to the custom Hook.
+
+Lastly, we are returning our data from our Hook.
+
+In main.jsx, we are importing our useFetch Hook and utilizing it like any other Hook. This is where we pass in the URL to fetch data from.
 
 
 
