@@ -474,5 +474,22 @@ Lastly, we are returning our data from our Hook.
 
 In main.jsx, we are importing our useFetch Hook and utilizing it like any other Hook. This is where we pass in the URL to fetch data from.
 
+## React Online Compiler
+### React.js Compiler (Editor)
+Create your own website and React.js applications with a Node.js environment in W3Schools Spaces.
 
+W3Schools Spaces is a website-building tool that enables you to create and share your own website, as well as develop and host your React.js applications within a Node.js environment.
 
+You have full control over the website's appearance and functionality by editing the code directly in your web browser.
+
+W3Schools Spaces is user-friendly and requires no setup, making it easy to use.
+
+Get started with React.js by selecting the Node.js environment in Spaces.
+
+The code editor is packed with features to help you achieve more:
+
+Templates: Start from scratch or use a template
+Cloud-based: no installations required. You only need your browser
+Terminal & Log: debug and troubleshoot your code easily
+File Navigator: switch between files inside the code editor
+And much more!
