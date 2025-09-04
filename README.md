@@ -492,3 +492,4 @@ Cloud-based: no installations required. You only need your browser
 Terminal & Log: debug and troubleshoot your code easily
 File Navigator: switch between files inside the code editor
 And much more!
+
