@@ -493,3 +493,18 @@ Terminal & Log: debug and troubleshoot your code easily
 File Navigator: switch between files inside the code editor
 And much more!
 
+###Learn Faster
+Practice is key to mastering coding, and the best way to put your React.js knowledge into practice is by getting practical with code.
+
+Use W3Schools Spaces to build, test and deploy code.
+
+The code editor lets you write and practice different types of computer languages. It includes React.js, but you can use it for other languages too.
+#### Share Your Website With The World
+Host and publish your websites in no time with W3School Spaces.
+
+W3Schools subdomain and SSL certificate are included for free with W3School Spaces. An SSL certificate makes your website safe and secure. It also helps people trust your website and makes it easier to find it online.
+
+Want a custom domain for your website?
+
+You can buy a domain or transfer an existing one and connect it to your space.
+
