@@ -511,3 +511,5 @@ You can buy a domain or transfer an existing one and connect it to your space.
 ###Easy Package Management
 Get an overview of your packages and easily add or delete frameworks and libraries. Then, with just one click, you can make changes to your packages without manual installation.
 
+## React Syllabus
+
